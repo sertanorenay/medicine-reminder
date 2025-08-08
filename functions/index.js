@@ -2,7 +2,7 @@ const {onRequest} = require("firebase-functions/v2/https");
 const {onSchedule} = require("firebase-functions/v2/scheduler");
 const logger = require("firebase-functions/logger");
 
-const functions = require('firebase-functions'); // Bu satırı kaldırabilirsin artık (gerek yok)
+const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
 
